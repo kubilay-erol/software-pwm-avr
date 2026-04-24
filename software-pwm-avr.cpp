@@ -1,6 +1,4 @@
 
-
-#define MY_PINB   *(reinterpret_cast<volatile unsigned char*>(0x23))
 #define MY_DDRB   *(reinterpret_cast<volatile unsigned char*>(0x24))
 #define MY_PORTB   *(reinterpret_cast<volatile unsigned char*>(0x25))
 
